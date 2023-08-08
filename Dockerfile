@@ -25,7 +25,7 @@ RUN dos2unix build/build.sh
 RUN build/build.sh
 
 # STAGE 2: Runtime
-FROM alpine
+FROM alpine:3.18.3
 
 # Set non-root nobody:nobody user (using UID:GID to support k8s SecurityContext runAsNonRoot:true)
 USER 65534:65534
