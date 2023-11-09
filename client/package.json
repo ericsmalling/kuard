@@ -17,7 +17,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-jsonschema-form": "^0.42.0",
-    "react-router-component": "^0.36.4"
+    "react-router-component": "^0.40.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
